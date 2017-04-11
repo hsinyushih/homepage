@@ -224,65 +224,65 @@ section {
 section h2 {
   font-size: 50px;
 }
-section.download {
+section.discover {
   padding: 150px 0;
   position: relative;
 }
-section.download h2 {
+section.discover h2 {
   margin-top: 0;
   font-size: 50px;
 }
-section.download .badges .badge-link {
+section.discover .badges .badge-link {
   display: block;
   margin-bottom: 25px;
 }
-section.download .badges .badge-link:last-child {
+section.discover .badges .badge-link:last-child {
   margin-bottom: 0;
 }
-section.download .badges .badge-link img {
+section.discover .badges .badge-link img {
   height: 60px;
 }
 @media (min-width: 768px) {
-  section.download .badges .badge-link {
+  section.discover .badges .badge-link {
     display: inline-block;
     margin-bottom: 0;
   }
 }
 @media (min-width: 768px) {
-  section.download h2 {
+  section.discover h2 {
     font-size: 70px;
   }
 }
-section.features .section-heading {
+section.skills .section-heading {
   margin-bottom: 100px;
 }
-section.features .section-heading h2 {
+section.skills .section-heading h2 {
   margin-top: 0;
 }
-section.features .section-heading p {
+section.skills .section-heading p {
   margin-bottom: 0;
 }
-section.features .device-container,
-section.features .feature-item {
+section.skills .device-container,
+section.skills .feature-item {
   max-width: 300px;
   margin: 0 auto;
 }
-section.features .device-container {
+section.skills .device-container {
   margin-bottom: 100px;
 }
 @media (min-width: 992px) {
-  section.features .device-container {
+  section.skills .device-container {
     margin-bottom: 0;
   }
 }
-section.features .feature-item {
+section.skills .feature-item {
   text-align: center;
   margin-bottom: 100px;
 }
-section.features .feature-item h3 {
+section.skills .feature-item h3 {
   font-size: 30px;
 }
-section.features .feature-item i {
+section.skills .feature-item i {
   font-size: 80px;
   background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
   background: linear-gradient(to left, #7b4397, #dc2430);
@@ -290,8 +290,8 @@ section.features .feature-item i {
   -webkit-text-fill-color: transparent;
 }
 @media (min-width: 992px) {
-  section.features .device-container,
-  section.features .feature-item {
+  section.skills .device-container,
+  section.skills .feature-item {
     max-width: none;
   }
 }
@@ -302,7 +302,7 @@ section.cta {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/bg-cta.jpg');
+  background-image: url('../img/violin.jpg');
   padding: 250px 0;
 }
 section.cta .cta-content {
@@ -357,6 +357,12 @@ section.contact ul.list-social li.social-twitter a {
 section.contact ul.list-social li.social-twitter a:hover {
   background-color: #0d95e8;
 }
+section.contact ul.list-social li.social-envelope-square a {
+  background-color: #1da1f2;
+}
+section.contact ul.list-social li.social-envelope-square a:hover {
+  background-color: #0d95e8;
+}
 section.contact ul.list-social li.social-facebook a {
   background-color: #3b5998;
 }
@@ -368,6 +374,18 @@ section.contact ul.list-social li.social-google-plus a {
 }
 section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
+}
+section.contact ul.list-social li.social-instagram a {
+  background-color: #990073;
+}
+section.contact ul.list-social li.social-instagram a:hover {
+  background-color: #800060;
+}
+section.contact ul.list-social li.social-youtube a {
+  background-color: #cc0000;
+}
+section.contact ul.list-social li.social-youtube a:hover {
+  background-color: #990000;
 }
 footer {
   background-color: #222222;
